@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+nav img {
+    color: #E50914;
+    width: 170px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+    gap: 14px;
+    padding: 30px;
+}
+
+.hero> :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: #2C2C2c;
+}
+
+.btn {
+    padding: 3px 10px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: rgb(223, 218, 218);
+    border: 1px solid rgb(223, 218, 218);
+    border-radius: 4px;
+    font-family: "Martel Sans";
+    font-weight: 500;
+}
+
+.btn-red {
+    background-color: #E50914;
+    color: white;
+    padding: 3px 20px;
+    height: 45px;
+    width: 175px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.btn-red span {
+    padding-left: 10px;
+}
+
+.main input {
+    padding: 3px 20px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    height: 38px;
+    width: 280px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-family: "Martel Sans", sans-serif;
+    text-align: start;
+}
+
+.btn-red-sm {
+    background-color: #E50914;
+    color: white;
+    font-weight: 800;
+    border: #E50914;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+    margin: auto;
+    align-items: center;
+    
+}
+
+
+
+.secimage {
+    position: relative;
+}
+
+.secimage img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimage video {
+    position: absolute;
+    top: 85px;
+    right: 20px;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-family: "Martel Sans";
+    font-weight: 900;
+}
+
+.first>div :nth-child(2) {
+    font-family: "Martel Sans";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.second .secimage {
+    padding-bottom: 34px;
+    position: relative;
+}
+
+.second .box {
+    height: 80px;
+    width: 350px;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    left: 20%;
+    bottom: 15%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.box img {
+    height: 71px;
+    width: 55px;
+    border-radius: 5px;
+    position: absolute;
+    left: 2.5%;
+    padding: 5px 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.second .box :nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    right: 41%;
+    top: 20%;
+}
+
+.second .box :nth-child(3) {
+    color: #066ae4;
+    font-size: 14px;
+    position: absolute;
+    top: 45%;
+    right: 49.5%;
+}
+
+.third .secimage img {
+    position: relative;
+    width: 556px;
+}
+
+.third .secimage video {
+    position: absolute;
+    width: 350px;
+    left: 89px;
+    top: 30px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq svg{
+    color: white;
+}
+
+.box2:hover{
+    background-color: #414141;
+}
+
+.box2 {
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 19px;
+    max-width: 90vw;
+    margin: 7px auto;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box2 span{
+    font-family: "Martel Sans";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq .heading {
+    text-align: center;
+    font-family: "Martel Sans";
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.ready{
+    text-align: center;
+    font-family: "Martel Sans";
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.mail input {
+    padding: 3px 20px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    height: 38px;
+    width: 280px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-family: "Martel Sans", sans-serif;
+    text-align: start;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.number{
+    color: white;
+    font-family: "Martel Sans";
+    padding: 34px 0px 20px 20px;
+}
+
+a{
+    color: white;
+    cursor: pointer;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px ;
+}
+
+.footeritem a{
+    font-family: "Martel Sans";
+    font-size: 12.7px;
+}
+
+.footerend{
+    color: rgb(200, 196, 196);
+    padding: 25px 0px 50px 20px;
+    font-family: "Martel Sans";
+    font-size: 12.7px;
+}
+
+@media only screen and (max-width: 1054px) {
+    .hero> :nth-child(2) {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1300) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 34px;
+    }
+
+    .secimage img {
+        width: 305px;
+    }
+
+    .secimage video {
+        width: 305px;
+    }
+}
